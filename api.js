@@ -81,7 +81,7 @@ const displayPhone =(phones) => {
     }
 };
 
-document.getElementById('btn-search'),addEventListener('click',function(){
+document.getElementById('btn-search').addEventListener('click',function(){
     const inputValue = document.getElementById('input-search');
     const inputText = inputValue.value;
     lodeData(inputText);
